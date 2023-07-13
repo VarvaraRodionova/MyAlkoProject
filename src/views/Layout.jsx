@@ -96,7 +96,13 @@ module.exports = function Layout({ children, login}) {
           </div>
         </header>
         <div className="bg-dk-green pad-t-2 pad-s-1 pad-b-8 mar-b-16 c-white">
-          <div className="max-w-700 center">
+          <div className="max-w-700 center mainContentPage">
+            <div className="leftBtns">
+              <a href='/'><button className='btn btn-outline-warning' style={{width:"200px"}}>Home</button></a>
+              <a href='/ingridients'><button className='btn btn-outline-warning' style={{width:"200px"}}>Choose ingridient</button></a>
+              <a href='/random'><button className='btn btn-outline-warning' style={{width:"200px"}}>Get Random</button></a>
+              <a href='/spirits'><button className='btn btn-outline-warning' style={{width:"200px"}}>Choose spirits</button></a>
+            </div>
             {children}
           </div>
         </div>

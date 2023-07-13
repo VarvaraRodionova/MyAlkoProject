@@ -8,7 +8,7 @@ module.exports = function OneCocktail({ login, drink }) {
     <Layout login={login}>
       <script defer src="/js/oneDrink.js" />
       <div className='exactDrink'>
-      <div className="card" style={{ width: "25rem",  color:"#fbe1a1"}}>
+      <div className="card" style={{ width: "25rem",  color:"#fbe1a1", marginLeft:"400px"}}>
         <img src={drink[0].strDrinkThumb} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{drink[0].strDrink}</h5>

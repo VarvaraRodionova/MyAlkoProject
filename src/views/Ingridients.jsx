@@ -5,8 +5,10 @@ module.exports = function Random({props}) {
     return (
         <Layout>
         <script defer src="/js/ingridients.js" />
-        <h2 style={{color:"#fbe1a1", marginLeft:'20px', marginBottom:'30px'}}>Check the drinks with chosen ingridient</h2>
+        <div className='ingridientsPage'>
+        <h2 style={{color:"#fbe1a1", marginLeft:'160px', marginBottom:'30px'}}>Check the drinks with chosen ingridient</h2>
         <div id='allIngridients' className='coctCards'></div>
+        </div>
         </Layout>
     )
 }

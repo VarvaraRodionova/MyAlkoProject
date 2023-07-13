@@ -39,6 +39,17 @@ html {
     transform: rotate(360deg);
   }
 
+.leftBtns {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    gap: 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 70px;
+    /* border-right: #fbe1a1 0.5px solid; */
+}
+
 .pad-b-4 {
   background-color: rgba(51, 51, 51);
 }
@@ -74,6 +85,16 @@ html {
   background-color: rgba(51, 51, 51);
 }
 
+.mainContentPage {
+    display: flex;
+    justify-content:left
+}
+
+.listPage {
+    display: flex;
+    flex-direction: column;
+}
+
 .begin {
   margin-top: 30px;
   height: 55px;
@@ -82,6 +103,7 @@ html {
 .cards {
   display: flex;
   flex-direction: column;
+  margin-left: 150px;
 }
 
 .start {
@@ -96,6 +118,11 @@ html {
 .create {
   align-self: center;
   margin-top: 30px;
+}
+
+.ingridientsPage {
+    display: flex;
+    flex-direction: column;
 }
 
 .card-img-top {
@@ -183,6 +210,7 @@ width: 60%;
 
 .randomCocktail {
   border-radius: 50%;
+  margin-left: 375px;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
 }
@@ -199,9 +227,15 @@ width: 60%;
   justify-content: center;
 }
 
+.randomBtn {
+    margin-left: 350px;
+}
+
 .coctCards {
   display: flex;
   flex-wrap: wrap;
+  max-width: 900px;
+  margin-left: 150px;
   gap: 20px;
   align-items: center;
   justify-content: center;
@@ -263,6 +297,8 @@ width: 60%;
   gap: 10px;
   align-items: center;
   justify-content: center;
+  margin-left: 150px;
+  max-width: 900px;
 }
 
 #editDrink {
@@ -273,4 +309,16 @@ width: 60%;
   color:#fbe1a1;
   border-radius: 15px;
   max-width: 270px;
+}
+
+#allIngridients {
+    max-width: 900px;
+    margin-left: 150px;
+}
+
+
+.spiritsContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
 }
