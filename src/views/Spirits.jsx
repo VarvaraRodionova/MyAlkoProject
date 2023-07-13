@@ -68,9 +68,9 @@ module.exports = function Spirits({ login }) {
               />
             </div>
             <div className="chooseSpirit">
-              <h1>Grappa</h1>
+              <h1>Sambuca</h1>
               <input
-                name="grappa"
+                name="sambuca"
                 className="form-check-input"
                 type="checkbox"
                 id="checkboxNoLabel"
@@ -92,7 +92,7 @@ module.exports = function Spirits({ login }) {
             <div className="chooseSpirit">
               <h1>Cognac</h1>
               <input
-                name="cognak"
+                name="cognac"
                 className="form-check-input"
                 type="checkbox"
                 id="checkboxNoLabel"
