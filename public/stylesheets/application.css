@@ -1,0 +1,276 @@
+/* //mainpage */
+* {
+    font-family: Gruppo, sans-serif;
+}
+
+html {
+  background-color: rgba(51, 51, 51);
+}
+
+#regForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fbe1a1;
+    gap: 15px;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    color: #fbe1a1;
+    gap: 15px;
+}
+
+/* body {
+    background-color: black;
+} */
+.logo {
+    width: 70px;
+    height: 70px;
+    fill:rgba(51, 51, 51);
+}
+
+.logo:hover {
+    -webkit-transform:rotateY(360deg);
+    transform: rotate(360deg);
+  }
+
+.pad-b-4 {
+  background-color: rgba(51, 51, 51);
+}
+
+.projName {
+  color: "#fbe1a1";
+  background-color: rgba(51, 51, 51);
+  /* opacity: 80%; */
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.mainPageBtns {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* h1 {
+    font-family: Lacquer;
+} */
+
+.welcomeContainer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(51, 51, 51);
+  /* opacity: 80%; */
+  padding-bottom: 30px;
+}
+
+.max-w-700 {
+  background-color: rgba(51, 51, 51);
+}
+
+.begin {
+  margin-top: 30px;
+  height: 55px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: sienna;
+  /* box-shadow: 0 0 30px black; */
+}
+
+.create {
+  align-self: center;
+  margin-top: 30px;
+}
+
+.card-img-top {
+  max-width: 70rem;
+  max-height: 15rem;
+}
+
+.card .all {
+  display: flex;
+  width: 25rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.card .you {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(51, 51, 51);
+}
+
+.chooseSpirit {
+  display: flex;
+  align-items: center;
+justify-content: flex-end;
+color: #fbe1a1;
+}
+
+.twoColumns {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.spiritForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-check-input {
+  margin-left: 20px;
+}
+
+.chosenSpirit {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 80%;
+  height: 60px;
+}
+
+.showMap {
+    width: 60%;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.btnMap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapDialog {
+border-radius: 15px;
+border:#ffc107 solid 3px;
+width: 60%;
+}
+/* random */
+
+.randomCocktik {
+  margin: 50px;
+  width: 80%;
+    height: 100px;
+}
+
+.randomCocktail {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.randomCocktail:hover {
+  -webkit-transform: scale(1.2);
+  /* transform: rotate(180deg); */
+}
+
+.randomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.coctCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgba(51, 51, 51);
+  color: "#ffc107";
+  border: solid black 2px;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+  /* transform: rotate(180deg); */
+}
+
+.card-body {
+  background-color: rgba(51, 51, 51);
+  border: solid black 1px;
+}
+
+/* oneDrink */
+
+.exactDrink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+
+/* modal */
+
+#newDrink {
+  /* opacity: 80%; */
+  background-color: transparent;
+  color: "#fbe1a1";
+  backdrop-filter: blur(20px);
+  border: solid 3px #ffc107;
+  border-radius: 15px;
+  max-width: 270px;
+}
+
+/* newDrinks */
+
+.cardCreated {
+  margin-bottom: 200px;
+}
+
+.editCocktail {
+  margin-right: 15px;
+}
+
+.coctCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#editDrink {
+  /* opacity: 80%; */
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  border: solid 3px #ffc107;
+  color:#fbe1a1;
+  border-radius: 15px;
+  max-width: 270px;
+}
